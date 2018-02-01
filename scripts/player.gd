@@ -4,6 +4,7 @@ export var jump=50
 var feet
 var player
 var flipped
+var cam
 # class member variables go here, for example:
 # var a = 2
 # var b = "textvar"
@@ -15,6 +16,8 @@ func _ready():
 	player =get_node("player")
 	feet= get_node("RayCast2D")
 	feet.add_exception(self)
+	cam=get_node("Camera2D")
+	#cam.set_zoom(
 	#player.set_blend_mode(1)
 
 

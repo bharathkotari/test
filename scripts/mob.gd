@@ -6,6 +6,8 @@ extends KinematicBody2D
 export var maxspeed=2
 var mob
 var player
+var damage =10
+var health =100
 var velocity =Vector2()
 var gravity = 20000.0
 func _ready():
@@ -23,12 +25,14 @@ func _fixed_process(delta):
 	direction.y=0
 	move(direction*maxspeed)
 	var dif = player.get_global_pos().x-mob.get_global_pos().x
-	if dif < 25 and dif > -25:
+	#print (dif)
+	if dif < 25 and dif > -40:
 		if dif > 0:
 			mob.set_flip_h(true)
 		else :
 			mob.set_flip_h(false)
 		mob.set_animation("attack")
+		get_parent().get_node("RigidBody2D").health=get_parent().get_node("RigidBody2D").health-damage
 	else:
 		mob.set_animation("walk_left")
 	

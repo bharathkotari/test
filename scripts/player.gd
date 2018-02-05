@@ -46,7 +46,7 @@ func _process(delta):
 			time+=1
 			set_axis_velocity(Vector2(speed+acc*time,0))
 			
-			player.set_animation("walk_left")
+			player.set_animation("walk")
 			flipped=1
 			player.set_flip_h(true)
 			
@@ -55,7 +55,7 @@ func _process(delta):
 			set_axis_velocity(Vector2(-speed-acc*time,0))
 			if flipped==1 :
 				player.set_flip_h(false)
-			player.set_animation("walk_left")
+			player.set_animation("walk")
 		else:
 			time =0
 			player.set_animation("walk")

@@ -241,7 +241,7 @@ transform/pos = Vector2( 0, 0.30462 )
 transform/scale = Vector2( 0.125, 0.125 )
 frames = SubResource( 5 )
 animation = "idle"
-frame = 5
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="mob"]

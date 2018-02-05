@@ -40,7 +40,7 @@ func _process(delta):
 				set_axis_velocity(Vector2(-speed-acc*time,-jump))
 			else:
 				set_axis_velocity(Vector2(0,-jump))
-			player.set_animation("idle")
+			player.set_animation("walk")
 		
 		elif Input.is_action_pressed("ui_right"):
 			time+=1
@@ -58,7 +58,7 @@ func _process(delta):
 			player.set_animation("walk_left")
 		else:
 			time =0
-			player.set_animation("idle")
+			player.set_animation("walk")
 		
 
 	

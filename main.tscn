@@ -18,32 +18,32 @@
 [ext_resource path="res://SKELETON PACK/attack/hit_6.png" type="Texture" id=16]
 [ext_resource path="res://SKELETON PACK/attack/hit_7.png" type="Texture" id=17]
 [ext_resource path="res://SKELETON PACK/attack/hit_8.png" type="Texture" id=18]
-[ext_resource path="res://SKELETON PACK/appear/appear_1.png" type="Texture" id=19]
-[ext_resource path="res://SKELETON PACK/appear/appear_10.png" type="Texture" id=20]
-[ext_resource path="res://SKELETON PACK/appear/appear_2.png" type="Texture" id=21]
-[ext_resource path="res://SKELETON PACK/appear/appear_3.png" type="Texture" id=22]
-[ext_resource path="res://SKELETON PACK/appear/appear_4.png" type="Texture" id=23]
-[ext_resource path="res://SKELETON PACK/appear/appear_5.png" type="Texture" id=24]
-[ext_resource path="res://SKELETON PACK/appear/appear_6.png" type="Texture" id=25]
-[ext_resource path="res://SKELETON PACK/appear/appear_7.png" type="Texture" id=26]
-[ext_resource path="res://SKELETON PACK/appear/appear_8.png" type="Texture" id=27]
-[ext_resource path="res://SKELETON PACK/appear/appear_9.png" type="Texture" id=28]
-[ext_resource path="res://SKELETON PACK/die/die_1.png" type="Texture" id=29]
-[ext_resource path="res://SKELETON PACK/die/die_2.png" type="Texture" id=30]
-[ext_resource path="res://SKELETON PACK/die/die_3.png" type="Texture" id=31]
-[ext_resource path="res://SKELETON PACK/die/die_4.png" type="Texture" id=32]
-[ext_resource path="res://SKELETON PACK/die/die_5.png" type="Texture" id=33]
-[ext_resource path="res://SKELETON PACK/die/die_6.png" type="Texture" id=34]
-[ext_resource path="res://SKELETON PACK/die/die_7.png" type="Texture" id=35]
-[ext_resource path="res://SKELETON PACK/die/die_8.png" type="Texture" id=36]
-[ext_resource path="res://SKELETON PACK/walk/go_1.png" type="Texture" id=37]
-[ext_resource path="res://SKELETON PACK/walk/go_2.png" type="Texture" id=38]
-[ext_resource path="res://SKELETON PACK/walk/go_3.png" type="Texture" id=39]
-[ext_resource path="res://SKELETON PACK/walk/go_4.png" type="Texture" id=40]
-[ext_resource path="res://SKELETON PACK/walk/go_5.png" type="Texture" id=41]
-[ext_resource path="res://SKELETON PACK/walk/go_6.png" type="Texture" id=42]
-[ext_resource path="res://SKELETON PACK/walk/go_7.png" type="Texture" id=43]
-[ext_resource path="res://SKELETON PACK/walk/go_8.png" type="Texture" id=44]
+[ext_resource path="res://SKELETON PACK/walk/go_1.png" type="Texture" id=19]
+[ext_resource path="res://SKELETON PACK/walk/go_2.png" type="Texture" id=20]
+[ext_resource path="res://SKELETON PACK/walk/go_3.png" type="Texture" id=21]
+[ext_resource path="res://SKELETON PACK/walk/go_4.png" type="Texture" id=22]
+[ext_resource path="res://SKELETON PACK/walk/go_5.png" type="Texture" id=23]
+[ext_resource path="res://SKELETON PACK/walk/go_6.png" type="Texture" id=24]
+[ext_resource path="res://SKELETON PACK/walk/go_7.png" type="Texture" id=25]
+[ext_resource path="res://SKELETON PACK/walk/go_8.png" type="Texture" id=26]
+[ext_resource path="res://SKELETON PACK/appear/appear_1.png" type="Texture" id=27]
+[ext_resource path="res://SKELETON PACK/appear/appear_10.png" type="Texture" id=28]
+[ext_resource path="res://SKELETON PACK/appear/appear_2.png" type="Texture" id=29]
+[ext_resource path="res://SKELETON PACK/appear/appear_3.png" type="Texture" id=30]
+[ext_resource path="res://SKELETON PACK/appear/appear_4.png" type="Texture" id=31]
+[ext_resource path="res://SKELETON PACK/appear/appear_5.png" type="Texture" id=32]
+[ext_resource path="res://SKELETON PACK/appear/appear_6.png" type="Texture" id=33]
+[ext_resource path="res://SKELETON PACK/appear/appear_7.png" type="Texture" id=34]
+[ext_resource path="res://SKELETON PACK/appear/appear_8.png" type="Texture" id=35]
+[ext_resource path="res://SKELETON PACK/appear/appear_9.png" type="Texture" id=36]
+[ext_resource path="res://SKELETON PACK/die/die_1.png" type="Texture" id=37]
+[ext_resource path="res://SKELETON PACK/die/die_2.png" type="Texture" id=38]
+[ext_resource path="res://SKELETON PACK/die/die_3.png" type="Texture" id=39]
+[ext_resource path="res://SKELETON PACK/die/die_4.png" type="Texture" id=40]
+[ext_resource path="res://SKELETON PACK/die/die_5.png" type="Texture" id=41]
+[ext_resource path="res://SKELETON PACK/die/die_6.png" type="Texture" id=42]
+[ext_resource path="res://SKELETON PACK/die/die_7.png" type="Texture" id=43]
+[ext_resource path="res://SKELETON PACK/die/die_8.png" type="Texture" id=44]
 [ext_resource path="res://scripts/player.gd" type="Script" id=45]
 [ext_resource path="res://ninza/png/Slide__000.png" type="Texture" id=46]
 [ext_resource path="res://ninza/png/Slide__001.png" type="Texture" id=47]
@@ -65,26 +65,26 @@
 [ext_resource path="res://ninza/png/Idle__007.png" type="Texture" id=63]
 [ext_resource path="res://ninza/png/Idle__008.png" type="Texture" id=64]
 [ext_resource path="res://ninza/png/Idle__009.png" type="Texture" id=65]
-[ext_resource path="res://ninza/png/Attack__000.png" type="Texture" id=66]
-[ext_resource path="res://ninza/png/Attack__001.png" type="Texture" id=67]
-[ext_resource path="res://ninza/png/Attack__002.png" type="Texture" id=68]
-[ext_resource path="res://ninza/png/Attack__003.png" type="Texture" id=69]
-[ext_resource path="res://ninza/png/Attack__004.png" type="Texture" id=70]
-[ext_resource path="res://ninza/png/Attack__005.png" type="Texture" id=71]
-[ext_resource path="res://ninza/png/Attack__006.png" type="Texture" id=72]
-[ext_resource path="res://ninza/png/Attack__007.png" type="Texture" id=73]
-[ext_resource path="res://ninza/png/Attack__008.png" type="Texture" id=74]
-[ext_resource path="res://ninza/png/Attack__009.png" type="Texture" id=75]
-[ext_resource path="res://ninza/png/Jump__000.png" type="Texture" id=76]
-[ext_resource path="res://ninza/png/Jump__001.png" type="Texture" id=77]
-[ext_resource path="res://ninza/png/Jump__002.png" type="Texture" id=78]
-[ext_resource path="res://ninza/png/Jump__003.png" type="Texture" id=79]
-[ext_resource path="res://ninza/png/Jump__004.png" type="Texture" id=80]
-[ext_resource path="res://ninza/png/Jump__005.png" type="Texture" id=81]
-[ext_resource path="res://ninza/png/Jump__006.png" type="Texture" id=82]
-[ext_resource path="res://ninza/png/Jump__007.png" type="Texture" id=83]
-[ext_resource path="res://ninza/png/Jump__008.png" type="Texture" id=84]
-[ext_resource path="res://ninza/png/Jump__009.png" type="Texture" id=85]
+[ext_resource path="res://ninza/png/Jump__000.png" type="Texture" id=66]
+[ext_resource path="res://ninza/png/Jump__001.png" type="Texture" id=67]
+[ext_resource path="res://ninza/png/Jump__002.png" type="Texture" id=68]
+[ext_resource path="res://ninza/png/Jump__003.png" type="Texture" id=69]
+[ext_resource path="res://ninza/png/Jump__004.png" type="Texture" id=70]
+[ext_resource path="res://ninza/png/Jump__005.png" type="Texture" id=71]
+[ext_resource path="res://ninza/png/Jump__006.png" type="Texture" id=72]
+[ext_resource path="res://ninza/png/Jump__007.png" type="Texture" id=73]
+[ext_resource path="res://ninza/png/Jump__008.png" type="Texture" id=74]
+[ext_resource path="res://ninza/png/Jump__009.png" type="Texture" id=75]
+[ext_resource path="res://ninza/png/Attack__000.png" type="Texture" id=76]
+[ext_resource path="res://ninza/png/Attack__001.png" type="Texture" id=77]
+[ext_resource path="res://ninza/png/Attack__002.png" type="Texture" id=78]
+[ext_resource path="res://ninza/png/Attack__003.png" type="Texture" id=79]
+[ext_resource path="res://ninza/png/Attack__004.png" type="Texture" id=80]
+[ext_resource path="res://ninza/png/Attack__005.png" type="Texture" id=81]
+[ext_resource path="res://ninza/png/Attack__006.png" type="Texture" id=82]
+[ext_resource path="res://ninza/png/Attack__007.png" type="Texture" id=83]
+[ext_resource path="res://ninza/png/Attack__008.png" type="Texture" id=84]
+[ext_resource path="res://ninza/png/Attack__009.png" type="Texture" id=85]
 [ext_resource path="res://ninza/png/Dead__000.png" type="Texture" id=86]
 [ext_resource path="res://ninza/png/Dead__001.png" type="Texture" id=87]
 [ext_resource path="res://ninza/png/Dead__002.png" type="Texture" id=88]
@@ -95,26 +95,26 @@
 [ext_resource path="res://ninza/png/Dead__007.png" type="Texture" id=93]
 [ext_resource path="res://ninza/png/Dead__008.png" type="Texture" id=94]
 [ext_resource path="res://ninza/png/Dead__009.png" type="Texture" id=95]
-[ext_resource path="res://ninza/png/Run__000.png" type="Texture" id=96]
-[ext_resource path="res://ninza/png/Run__001.png" type="Texture" id=97]
-[ext_resource path="res://ninza/png/Run__002.png" type="Texture" id=98]
-[ext_resource path="res://ninza/png/Run__003.png" type="Texture" id=99]
-[ext_resource path="res://ninza/png/Run__004.png" type="Texture" id=100]
-[ext_resource path="res://ninza/png/Run__005.png" type="Texture" id=101]
-[ext_resource path="res://ninza/png/Run__006.png" type="Texture" id=102]
-[ext_resource path="res://ninza/png/Run__007.png" type="Texture" id=103]
-[ext_resource path="res://ninza/png/Run__008.png" type="Texture" id=104]
-[ext_resource path="res://ninza/png/Run__009.png" type="Texture" id=105]
-[ext_resource path="res://ninza/png/Throw__000.png" type="Texture" id=106]
-[ext_resource path="res://ninza/png/Throw__001.png" type="Texture" id=107]
-[ext_resource path="res://ninza/png/Throw__002.png" type="Texture" id=108]
-[ext_resource path="res://ninza/png/Throw__003.png" type="Texture" id=109]
-[ext_resource path="res://ninza/png/Throw__004.png" type="Texture" id=110]
-[ext_resource path="res://ninza/png/Throw__005.png" type="Texture" id=111]
-[ext_resource path="res://ninza/png/Throw__006.png" type="Texture" id=112]
-[ext_resource path="res://ninza/png/Throw__007.png" type="Texture" id=113]
-[ext_resource path="res://ninza/png/Throw__008.png" type="Texture" id=114]
-[ext_resource path="res://ninza/png/Throw__009.png" type="Texture" id=115]
+[ext_resource path="res://ninza/png/Throw__000.png" type="Texture" id=96]
+[ext_resource path="res://ninza/png/Throw__001.png" type="Texture" id=97]
+[ext_resource path="res://ninza/png/Throw__002.png" type="Texture" id=98]
+[ext_resource path="res://ninza/png/Throw__003.png" type="Texture" id=99]
+[ext_resource path="res://ninza/png/Throw__004.png" type="Texture" id=100]
+[ext_resource path="res://ninza/png/Throw__005.png" type="Texture" id=101]
+[ext_resource path="res://ninza/png/Throw__006.png" type="Texture" id=102]
+[ext_resource path="res://ninza/png/Throw__007.png" type="Texture" id=103]
+[ext_resource path="res://ninza/png/Throw__008.png" type="Texture" id=104]
+[ext_resource path="res://ninza/png/Throw__009.png" type="Texture" id=105]
+[ext_resource path="res://ninza/png/Jump_Throw__000.png" type="Texture" id=106]
+[ext_resource path="res://ninza/png/Jump_Throw__001.png" type="Texture" id=107]
+[ext_resource path="res://ninza/png/Jump_Throw__002.png" type="Texture" id=108]
+[ext_resource path="res://ninza/png/Jump_Throw__003.png" type="Texture" id=109]
+[ext_resource path="res://ninza/png/Jump_Throw__004.png" type="Texture" id=110]
+[ext_resource path="res://ninza/png/Jump_Throw__005.png" type="Texture" id=111]
+[ext_resource path="res://ninza/png/Jump_Throw__006.png" type="Texture" id=112]
+[ext_resource path="res://ninza/png/Jump_Throw__007.png" type="Texture" id=113]
+[ext_resource path="res://ninza/png/Jump_Throw__008.png" type="Texture" id=114]
+[ext_resource path="res://ninza/png/Jump_Throw__009.png" type="Texture" id=115]
 [ext_resource path="res://ninza/png/Jump_Attack__000.png" type="Texture" id=116]
 [ext_resource path="res://ninza/png/Jump_Attack__001.png" type="Texture" id=117]
 [ext_resource path="res://ninza/png/Jump_Attack__002.png" type="Texture" id=118]
@@ -125,16 +125,16 @@
 [ext_resource path="res://ninza/png/Jump_Attack__007.png" type="Texture" id=123]
 [ext_resource path="res://ninza/png/Jump_Attack__008.png" type="Texture" id=124]
 [ext_resource path="res://ninza/png/Jump_Attack__009.png" type="Texture" id=125]
-[ext_resource path="res://ninza/png/Jump_Throw__000.png" type="Texture" id=126]
-[ext_resource path="res://ninza/png/Jump_Throw__001.png" type="Texture" id=127]
-[ext_resource path="res://ninza/png/Jump_Throw__002.png" type="Texture" id=128]
-[ext_resource path="res://ninza/png/Jump_Throw__003.png" type="Texture" id=129]
-[ext_resource path="res://ninza/png/Jump_Throw__004.png" type="Texture" id=130]
-[ext_resource path="res://ninza/png/Jump_Throw__005.png" type="Texture" id=131]
-[ext_resource path="res://ninza/png/Jump_Throw__006.png" type="Texture" id=132]
-[ext_resource path="res://ninza/png/Jump_Throw__007.png" type="Texture" id=133]
-[ext_resource path="res://ninza/png/Jump_Throw__008.png" type="Texture" id=134]
-[ext_resource path="res://ninza/png/Jump_Throw__009.png" type="Texture" id=135]
+[ext_resource path="res://ninza/png/Run__000.png" type="Texture" id=126]
+[ext_resource path="res://ninza/png/Run__001.png" type="Texture" id=127]
+[ext_resource path="res://ninza/png/Run__002.png" type="Texture" id=128]
+[ext_resource path="res://ninza/png/Run__003.png" type="Texture" id=129]
+[ext_resource path="res://ninza/png/Run__004.png" type="Texture" id=130]
+[ext_resource path="res://ninza/png/Run__005.png" type="Texture" id=131]
+[ext_resource path="res://ninza/png/Run__006.png" type="Texture" id=132]
+[ext_resource path="res://ninza/png/Run__007.png" type="Texture" id=133]
+[ext_resource path="res://ninza/png/Run__008.png" type="Texture" id=134]
+[ext_resource path="res://ninza/png/Run__009.png" type="Texture" id=135]
 [ext_resource path="res://scripts/touchscreen.gd" type="Script" id=136]
 [ext_resource path="res://transparentDark/transparentDark22.png" type="Texture" id=137]
 [ext_resource path="res://transparentDark/transparentDark03.png" type="Texture" id=138]
@@ -155,12 +155,12 @@ custom_solver_bias = 0.0
 radius = 14.6334
 height = 33.8155
 
-[sub_resource type="CircleShape2D" id=6]
+[sub_resource type="CircleShape2D" id=3]
 
 custom_solver_bias = 0.0
 radius = 28.1416
 
-[sub_resource type="SpriteFrames" id=3]
+[sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
 "frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
@@ -173,34 +173,34 @@ animations = [ {
 "name": "attack",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "walk_left",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
 "loop": true,
 "name": "appear",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
+"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
 "loop": true,
 "name": "die",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "walk_right",
 "speed": 10.0
-}, {
-"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
-"loop": true,
-"name": "walk_left",
-"speed": 15.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=4]
+[sub_resource type="CapsuleShape2D" id=5]
 
 custom_solver_bias = 0.0
 radius = 131.488
 height = 260.854
 
-[sub_resource type="SpriteFrames" id=5]
+[sub_resource type="SpriteFrames" id=6]
 
 animations = [ {
 "frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ) ],
@@ -215,12 +215,12 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ) ],
 "loop": true,
-"name": "attack",
+"name": "jump",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ) ],
 "loop": true,
-"name": "jump",
+"name": "attack",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ) ],
@@ -230,12 +230,12 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 105 ) ],
 "loop": true,
-"name": "walk",
+"name": "throw",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ) ],
 "loop": true,
-"name": "throw",
+"name": "jump_throw",
 "speed": 20.0
 }, {
 "frames": [ ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 121 ), ExtResource( 122 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ) ],
@@ -245,7 +245,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ) ],
 "loop": true,
-"name": "jump_throw",
+"name": "walk",
 "speed": 20.0
 } ]
 
@@ -352,7 +352,6 @@ _update_shape_index = 0
 
 [node name="mob" type="KinematicBody2D" parent="."]
 
-editor/display_folded = true
 transform/pos = Vector2( -67.0533, 544.266 )
 input/pickable = false
 shapes/0/shape = SubResource( 2 )
@@ -373,7 +372,7 @@ editor/display_folded = true
 transform/pos = Vector2( 0, -14.5109 )
 transform/scale = Vector2( 7, 4.75717 )
 input/pickable = true
-shapes/0/shape = SubResource( 6 )
+shapes/0/shape = SubResource( 3 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, -2.05778, 1.86336 )
 shapes/0/trigger = false
 gravity_vec = Vector2( 0, 1 )
@@ -384,7 +383,7 @@ angular_damp = 1.0
 [node name="sight" type="CollisionShape2D" parent="mob/Area2D"]
 
 transform/pos = Vector2( -2.05778, 1.86336 )
-shape = SubResource( 6 )
+shape = SubResource( 3 )
 trigger = false
 _update_shape_index = 0
 
@@ -399,15 +398,15 @@ _update_shape_index = 0
 
 transform/pos = Vector2( 0, 0.30462 )
 transform/scale = Vector2( 0.2, 0.2 )
-frames = SubResource( 3 )
+frames = SubResource( 4 )
 animation = "idle"
-frame = 5
+frame = 1
 playing = true
 
 [node name="right" type="RayCast2D" parent="mob"]
 
 transform/rot = 90.0
-transform/scale = Vector2( 2, 2 )
+transform/scale = Vector2( 2, 0.3 )
 enabled = true
 cast_to = Vector2( 0, 50 )
 layer_mask = 1
@@ -416,7 +415,7 @@ type_mask = 15
 [node name="left" type="RayCast2D" parent="mob"]
 
 transform/rot = -90.0
-transform/scale = Vector2( 2, 2 )
+transform/scale = Vector2( 2, 0.5 )
 enabled = true
 cast_to = Vector2( 0, 50 )
 layer_mask = 1
@@ -428,10 +427,10 @@ type_mask = 15
 
 transform/pos = Vector2( 367.697, 515.129 )
 input/pickable = false
-shapes/0/shape = SubResource( 4 )
+shapes/0/shape = SubResource( 5 )
 shapes/0/transform = Matrix32( 0.125, 0, 0, 0.125, 1.41985, -0.987694 )
 shapes/0/trigger = false
-collision/layers = 1
+collision/layers = 2
 collision/mask = 1
 mode = 2
 mass = 1.0
@@ -460,16 +459,36 @@ jump = 300
 
 transform/pos = Vector2( 5.52153, -1.72697 )
 transform/scale = Vector2( 0.15, 0.15 )
-frames = SubResource( 5 )
+frames = SubResource( 6 )
 animation = "idle"
-frame = 5
+frame = 8
 playing = true
+
+[node name="Camera2D" type="Camera2D" parent="RigidBody2D"]
+
+transform/scale = Vector2( 5, 5 )
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 2, 2 )
+limit/left = -10000000
+limit/top = -10000000
+limit/right = 10000000
+limit/bottom = 10000000
+drag_margin/h_enabled = true
+drag_margin/v_enabled = true
+smoothing/enable = true
+smoothing/speed = 20.0
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
 
 transform/pos = Vector2( 1.41985, -0.987694 )
 transform/scale = Vector2( 0.125, 0.125 )
-shape = SubResource( 4 )
+shape = SubResource( 5 )
 trigger = false
 _update_shape_index = 0
 
@@ -501,25 +520,6 @@ enabled = true
 cast_to = Vector2( 0, 50 )
 layer_mask = 1
 type_mask = 15
-
-[node name="Camera2D" type="Camera2D" parent="RigidBody2D"]
-
-anchor_mode = 1
-rotating = false
-current = true
-zoom = Vector2( 0.5, 0.5 )
-limit/left = -10000000
-limit/top = -10000000
-limit/right = 10000000
-limit/bottom = 10000000
-drag_margin/h_enabled = true
-drag_margin/v_enabled = true
-smoothing/enable = true
-smoothing/speed = 20.0
-drag_margin/left = 0.2
-drag_margin/top = 0.2
-drag_margin/right = 0.2
-drag_margin/bottom = 0.2
 
 [node name="gui" type="CanvasLayer" parent="."]
 
@@ -594,6 +594,6 @@ collision/bounce = 0.0
 collision/layers = 1
 collision/mask = 1
 occluder/light_mask = 1
-tile_data = IntArray( 262142, 0, 196610, 0, 196611, 10, 327678, 0, 262146, 0, 262147, 0, 262148, 10, 262180, 0, 262181, 0, 262182, 0, 393207, 0, 393208, 0, 393209, 0, 393210, 0, 393211, 0, 393213, 0, 393214, 0, 393215, 0, 327682, 0, 327683, 0, 327684, 0, 327685, 10, 327706, 9, 327707, 0, 327708, 0, 327709, 0, 327710, 0, 327711, 0, 327712, 0, 327714, 0, 327715, 0, 327718, 0, 327719, 0, 458742, 0, 458747, 0, 458748, 0, 393219, 10, 393221, 0, 393222, 0, 393223, 0, 393224, 0, 393241, 9, 393247, 0, 393250, 0, 393255, 0, 524277, 0, 524284, 0, 458776, 9, 458780, 0, 458781, 0, 458782, 0, 458783, 0, 458786, 0, 458791, 0, 458792, 0, 589813, 0, 589820, 0, 524311, 9, 524316, 0, 524321, 0, 524328, 0, 655349, 0, 655356, 0, 589846, 9, 589852, 0, 589857, 0, 589864, 0, 720885, 0, 720890, 0, 720891, 0, 720892, 0, 720893, 0, 720894, 0, 720895, 0, 655360, 0, 655361, 0, 655362, 0, 655363, 0, 655364, 0, 655365, 0, 655366, 0, 655367, 0, 655368, 0, 655369, 0, 655370, 0, 655371, 0, 655372, 0, 655373, 0, 655374, 0, 655375, 0, 655376, 0, 655377, 0, 655378, 0, 655379, 0, 655380, 0, 655381, 0, 655382, 0, 655383, 0, 655384, 0, 655385, 0, 655386, 0, 655387, 0, 655388, 0, 655389, 0, 655390, 0, 655391, 0, 655392, 0 )
+tile_data = IntArray( 262142, 0, 196610, 0, 196611, 10, 327678, 0, 262146, 0, 262147, 0, 262148, 10, 262180, 0, 262181, 0, 262182, 0, 393207, 0, 393208, 0, 393209, 0, 393210, 0, 393211, 0, 393213, 0, 393214, 0, 393215, 0, 327682, 0, 327683, 0, 327684, 0, 327685, 10, 327714, 0, 327715, 0, 327718, 0, 327719, 0, 458742, 0, 458747, 0, 458748, 0, 393219, 10, 393220, 0, 393221, 0, 393222, 0, 393223, 0, 393224, 0, 393250, 0, 393255, 0, 524277, 0, 524284, 0, 458756, 0, 458786, 0, 458791, 0, 458792, 0, 589813, 0, 589820, 0, 524292, 0, 524321, 0, 524328, 0, 655349, 0, 655356, 0, 589828, 0, 589857, 0, 589864, 0, 720885, 0, 720890, 0, 720891, 0, 720892, 0, 720893, 0, 720894, 0, 720895, 0, 655360, 0, 655361, 0, 655362, 0, 655363, 0, 655364, 0, 655365, 0, 655366, 0, 655367, 0, 655368, 0, 655369, 0, 655370, 0, 655371, 0, 655372, 0, 655373, 0, 655374, 0, 655375, 0, 655376, 0, 655377, 0, 655378, 0, 655379, 0, 655380, 0, 655381, 0, 655382, 0, 655383, 0, 655384, 0, 655385, 0, 655386, 0, 655387, 0, 655388, 0, 655389, 0, 655390, 0, 655391, 0, 655392, 0 )
 
 

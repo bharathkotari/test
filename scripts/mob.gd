@@ -6,7 +6,7 @@ extends KinematicBody2D
 export var maxspeed=2
 var mob
 var player
-var damage =10
+var damage =2
 var health =100
 var velocity =Vector2()
 var ran =Vector2(-10,0)
@@ -49,11 +49,11 @@ func _fixed_process(delta):
 	velocity.y=delta*gravity
 	var motion= velocity*delta
 	move(motion)
-	random_walk(delta)
+	#random_walk(delta)
 	
 	#print (dif)
 	#print (sight)
-	if (sight.size()!=0):
+	if (sight.size()>=1):
 		for obj in sight:
 			if (obj.is_in_group("player")):
 				var direction=(player.get_global_pos()-mob.get_global_pos()).normalized()
@@ -65,16 +65,16 @@ func _fixed_process(delta):
 						mob.set_flip_h(true)
 					else :
 						mob.set_flip_h(false)
-					
+					mob.set_animation("attack")
 					if get_parent().get_node("RigidBody2D").health >=0:
-						get_parent().get_node("RigidBody2D").health=get_parent().get_node("RigidBody2D").health-damage
-						mob.set_animation("attack")
+						get_parent().get_node("RigidBody2D").health-=damage
+						
 					else:
-						random_walk()
+						random_walk(delta)
 					
 						#print ("player spotted")
 	
 	else:
-		
-		mob.set_animation("walk_left")
+		random_walk(delta)
+		#mob.set_animation("walk_left")
 #	

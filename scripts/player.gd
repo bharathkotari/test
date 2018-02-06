@@ -10,6 +10,7 @@ var feet_right
 var player
 var flipped
 var cam
+var bigone
 var time =0
 # class member variables go here, for example:
 # var a = 2
@@ -19,6 +20,8 @@ func _ready():
 	# Called every time the node is added to the scene.
 	# Initialization here
 	set_process(true)
+	bigone = get_node(".")
+	bigone.add_to_group("player")
 	player =get_node("player")
 	feet= get_node("RayCast2D")
 	feet.add_exception(self)
@@ -31,8 +34,17 @@ func _ready():
 	#player.set_blend_mode(1)
 
 func dead():
-	get_node("player").set_animation("dead")
-	get_parent().get_node("mob/villain").set_animation("walk_left")
+	
+	#bigone.remove_from_group("player")
+	set_axis_velocity(Vector2(speed+acc*time,0))
+	#set_axis_velocity(Vector2(0,jump*speed))
+	bigone.add_to_group("dead")
+	player.set_animation("dead")
+	player.stop()
+	
+	
+	#get_node("player").remove_and_skip()
+	#get_parent().get_node("mob/villain").set_animation("walk_left")
 	
 	
 	

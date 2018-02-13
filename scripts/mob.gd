@@ -69,7 +69,7 @@ func _fixed_process(delta):
 					if get_parent().get_node("RigidBody2D").health >=0:
 						get_parent().get_node("RigidBody2D").health-=damage
 						
-					else:
+					elif get_parent().get_node("RigidBody2D").is_hidden():
 						random_walk(delta)
 					
 						#print ("player spotted")

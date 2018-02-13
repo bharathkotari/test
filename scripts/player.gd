@@ -36,11 +36,12 @@ func _ready():
 func dead():
 	
 	#bigone.remove_from_group("player")
-	set_axis_velocity(Vector2(speed+acc*time,0))
-	#set_axis_velocity(Vector2(0,jump*speed))
+	#set_axis_velocity(Vector2(speed+acc*time,0))
+	#set_axis_velocity(Vector2(speed,-jump))
+	bigone.set_hidden(true)
 	bigone.add_to_group("dead")
 	player.set_animation("dead")
-	player.stop()
+	#player.stop()
 	
 	
 	#get_node("player").remove_and_skip()

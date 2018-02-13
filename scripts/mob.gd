@@ -49,7 +49,7 @@ func _fixed_process(delta):
 	velocity.y=delta*gravity
 	var motion= velocity*delta
 	move(motion)
-	#random_walk(delta)
+	random_walk(delta)
 	
 	#print (dif)
 	#print (sight)

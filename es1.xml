@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="TileSet" subresource_count="29" version="2.1" version_name="Godot Engine v2.1.4.stable.official">
-	<ext_resource path="res://platform/grassRight.png" type="Texture" index="2"></ext_resource>
-	<ext_resource path="res://platform/grassHillLeft2.png" type="Texture" index="10"></ext_resource>
-	<ext_resource path="res://platform/grassCliffRightAlt.png" type="Texture" index="9"></ext_resource>
-	<ext_resource path="res://platform/grassCenter.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://platform/grassHillRight2.png" type="Texture" index="11"></ext_resource>
+<resource_file type="TileSet" subresource_count="37" version="2.1" version_name="Godot Engine v2.1.4.stable.official">
+	<ext_resource path="res://platform/grassRight.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://platform/grassHillLeft2.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://platform/grassCliffRightAlt.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://platform/grassCenter.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://platform/grassHillRight2.png" type="Texture" index="4"></ext_resource>
 	<ext_resource path="res://platform/grassCenter_rounded.png" type="Texture" index="1"></ext_resource>
 	<ext_resource path="res://platform/grass.png" type="Texture" index="0"></ext_resource>
-	<ext_resource path="res://platform/grassHillRight.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://platform/grassHillLeft.png" type="Texture" index="5"></ext_resource>
-	<ext_resource path="res://platform/grassCliffLeftAlt.png" type="Texture" index="7"></ext_resource>
-	<ext_resource path="res://platform/grassCliffRight.png" type="Texture" index="8"></ext_resource>
-	<ext_resource path="res://platform/grassLeft.png" type="Texture" index="12"></ext_resource>
-	<ext_resource path="res://platform/grassMid.png" type="Texture" index="13"></ext_resource>
-	<ext_resource path="res://platform/grassCliffLeft.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://platform/grassHillRight.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://platform/grassHillLeft.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://platform/grassHalfLeft.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://platform/grassHalf.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://platform/grassHalfMid.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://platform/grassCliffLeftAlt.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://platform/grassCliffRight.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://platform/grassLeft.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://platform/grassMid.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://platform/grassCliffLeft.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://platform/grassHalfRight.png" type="Texture" index="17"></ext_resource>
 	<resource type="RectangleShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2 name="extents"> 35, 35 </vector2>
@@ -24,9 +28,9 @@
 		<vector2 name="extents"> 35, 35 </vector2>
 
 	</resource>
-	<resource type="RectangleShape2D" path="local://11">
+	<resource type="ConcavePolygonShape2D" path="local://11">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 35, 35 </vector2>
+		<vector2_array name="segments" len="6"> 			-19.7612, 18.4844, 9.46175, -30.0881, 9.46175, -30.0881, 17.8743, 9.88402, 17.8743, 9.88402, -19.7612, 18.4844 </vector2_array>
 
 	</resource>
 	<resource type="RectangleShape2D" path="local://12">
@@ -34,14 +38,34 @@
 		<vector2 name="extents"> 35, 35 </vector2>
 
 	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://13">
+	<resource type="RectangleShape2D" path="local://13">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-35, -35, 35, 35, -35, 35 </vector2_array>
+		<vector2 name="extents"> 35, 35 </vector2>
 
 	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://14">
+	<resource type="RectangleShape2D" path="local://14">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-35, 35, 35.0324, -35.1286, 35, 35 </vector2_array>
+		<vector2 name="extents"> 35, 35 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://15">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 35, 35 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://16">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 35, 35 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://17">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 35, 35 </vector2>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://18">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			-35, -35, 35, 35, -35, 35 </vector2_array>
 
 	</resource>
 	<resource type="RectangleShape2D" path="local://3">
@@ -66,22 +90,22 @@
 	</resource>
 	<resource type="RectangleShape2D" path="local://7">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 35, 35 </vector2>
+		<vector2 name="extents"> 35, 22.8572 </vector2>
 
 	</resource>
 	<resource type="RectangleShape2D" path="local://8">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 35, 35 </vector2>
+		<vector2 name="extents"> 35, 20 </vector2>
 
 	</resource>
 	<resource type="RectangleShape2D" path="local://9">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 35, 35 </vector2>
+		<vector2 name="extents"> 35, 20 </vector2>
 
 	</resource>
 	<resource type="RectangleShape2D" path="local://10">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 35, 35 </vector2>
+		<vector2 name="extents"> 35, 20 </vector2>
 
 	</resource>
 	<main_resource>
@@ -112,7 +136,7 @@
 		<vector2 name="1/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="1/one_way_collision_max_depth"> 0 </real>
 		<string name="2/name"> "grassCliffLeft" </string>
-		<resource name="2/texture" external="6">  </resource>
+		<resource name="2/texture" external="10">  </resource>
 		<vector2 name="2/tex_offset"> 0, 0 </vector2>
 		<resource name="2/material"></resource>		<color name="2/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="2/region"> 0, 0, 70, 70 </rect2>
@@ -125,7 +149,7 @@
 		<vector2 name="2/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="2/one_way_collision_max_depth"> 0 </real>
 		<string name="3/name"> "grassCliffLeftAlt" </string>
-		<resource name="3/texture" external="7">  </resource>
+		<resource name="3/texture" external="11">  </resource>
 		<vector2 name="3/tex_offset"> 0, 0 </vector2>
 		<resource name="3/material"></resource>		<color name="3/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="3/region"> 0, 0, 70, 70 </rect2>
@@ -138,7 +162,7 @@
 		<vector2 name="3/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="3/one_way_collision_max_depth"> 0 </real>
 		<string name="4/name"> "grassCliffRight" </string>
-		<resource name="4/texture" external="8">  </resource>
+		<resource name="4/texture" external="12">  </resource>
 		<vector2 name="4/tex_offset"> 0, 0 </vector2>
 		<resource name="4/material"></resource>		<color name="4/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="4/region"> 0, 0, 70, 70 </rect2>
@@ -151,7 +175,7 @@
 		<vector2 name="4/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="4/one_way_collision_max_depth"> 0 </real>
 		<string name="5/name"> "grassCliffRightAlt" </string>
-		<resource name="5/texture" external="9">  </resource>
+		<resource name="5/texture" external="13">  </resource>
 		<vector2 name="5/tex_offset"> 0, 0 </vector2>
 		<resource name="5/material"></resource>		<color name="5/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="5/region"> 0, 0, 70, 70 </rect2>
@@ -163,21 +187,21 @@
 		</array>
 		<vector2 name="5/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="5/one_way_collision_max_depth"> 0 </real>
-		<string name="6/name"> "grassHillLeft2" </string>
-		<resource name="6/texture" external="10">  </resource>
+		<string name="6/name"> "grassHalf" </string>
+		<resource name="6/texture" external="14">  </resource>
 		<vector2 name="6/tex_offset"> 0, 0 </vector2>
 		<resource name="6/material"></resource>		<color name="6/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="6/region"> 0, 0, 70, 70 </rect2>
-		<vector2 name="6/occluder_offset"> 35, 35 </vector2>
-		<resource name="6/occluder"></resource>		<vector2 name="6/navigation_offset"> 35, 35 </vector2>
-		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 35, 35 </vector2>
+		<vector2 name="6/occluder_offset"> 35, 31 </vector2>
+		<resource name="6/occluder"></resource>		<vector2 name="6/navigation_offset"> 35, 31 </vector2>
+		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 35, 31 </vector2>
 		<array name="6/shapes" len="1" shared="false">
 			<resource  resource_type="Shape2D" path="local://7">  </resource>
 		</array>
 		<vector2 name="6/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="6/one_way_collision_max_depth"> 0 </real>
-		<string name="7/name"> "grassHillRight2" </string>
-		<resource name="7/texture" external="11">  </resource>
+		<string name="7/name"> "grassHalfLeft" </string>
+		<resource name="7/texture" external="15">  </resource>
 		<vector2 name="7/tex_offset"> 0, 0 </vector2>
 		<resource name="7/material"></resource>		<color name="7/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="7/region"> 0, 0, 70, 70 </rect2>
@@ -189,21 +213,21 @@
 		</array>
 		<vector2 name="7/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="7/one_way_collision_max_depth"> 0 </real>
-		<string name="8/name"> "grassLeft" </string>
-		<resource name="8/texture" external="12">  </resource>
+		<string name="8/name"> "grassHalfMid" </string>
+		<resource name="8/texture" external="16">  </resource>
 		<vector2 name="8/tex_offset"> 0, 0 </vector2>
 		<resource name="8/material"></resource>		<color name="8/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="8/region"> 0, 0, 70, 70 </rect2>
-		<vector2 name="8/occluder_offset"> 38, 36 </vector2>
-		<resource name="8/occluder"></resource>		<vector2 name="8/navigation_offset"> 38, 36 </vector2>
-		<resource name="8/navigation"></resource>		<vector2 name="8/shape_offset"> 38, 36 </vector2>
+		<vector2 name="8/occluder_offset"> 35, 35 </vector2>
+		<resource name="8/occluder"></resource>		<vector2 name="8/navigation_offset"> 35, 35 </vector2>
+		<resource name="8/navigation"></resource>		<vector2 name="8/shape_offset"> 35, 35 </vector2>
 		<array name="8/shapes" len="1" shared="false">
 			<resource  resource_type="Shape2D" path="local://9">  </resource>
 		</array>
 		<vector2 name="8/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="8/one_way_collision_max_depth"> 0 </real>
-		<string name="9/name"> "grassMid" </string>
-		<resource name="9/texture" external="13">  </resource>
+		<string name="9/name"> "grassHalfRight" </string>
+		<resource name="9/texture" external="17">  </resource>
 		<vector2 name="9/tex_offset"> 0, 0 </vector2>
 		<resource name="9/material"></resource>		<color name="9/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="9/region"> 0, 0, 70, 70 </rect2>
@@ -215,7 +239,7 @@
 		</array>
 		<vector2 name="9/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="9/one_way_collision_max_depth"> 0 </real>
-		<string name="10/name"> "grassRight" </string>
+		<string name="10/name"> "grassHillLeft" </string>
 		<resource name="10/texture" external="2">  </resource>
 		<vector2 name="10/tex_offset"> 0, 0 </vector2>
 		<resource name="10/material"></resource>		<color name="10/modulate"> 1, 1, 1, 1 </color>
@@ -228,7 +252,7 @@
 		</array>
 		<vector2 name="10/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="10/one_way_collision_max_depth"> 0 </real>
-		<string name="11/name"> "grassCenter" </string>
+		<string name="11/name"> "grassHillLeft2" </string>
 		<resource name="11/texture" external="3">  </resource>
 		<vector2 name="11/tex_offset"> 0, 0 </vector2>
 		<resource name="11/material"></resource>		<color name="11/modulate"> 1, 1, 1, 1 </color>
@@ -241,7 +265,7 @@
 		</array>
 		<vector2 name="11/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="11/one_way_collision_max_depth"> 0 </real>
-		<string name="12/name"> "grassHillRight" </string>
+		<string name="12/name"> "grassHillRight2" </string>
 		<resource name="12/texture" external="4">  </resource>
 		<vector2 name="12/tex_offset"> 0, 0 </vector2>
 		<resource name="12/material"></resource>		<color name="12/modulate"> 1, 1, 1, 1 </color>
@@ -254,19 +278,71 @@
 		</array>
 		<vector2 name="12/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="12/one_way_collision_max_depth"> 0 </real>
-		<string name="13/name"> "grassHillLeft" </string>
+		<string name="13/name"> "grassLeft" </string>
 		<resource name="13/texture" external="5">  </resource>
 		<vector2 name="13/tex_offset"> 0, 0 </vector2>
 		<resource name="13/material"></resource>		<color name="13/modulate"> 1, 1, 1, 1 </color>
 		<rect2 name="13/region"> 0, 0, 70, 70 </rect2>
-		<vector2 name="13/occluder_offset"> 35, 35 </vector2>
-		<resource name="13/occluder"></resource>		<vector2 name="13/navigation_offset"> 35, 35 </vector2>
-		<resource name="13/navigation"></resource>		<vector2 name="13/shape_offset"> 35, 35 </vector2>
+		<vector2 name="13/occluder_offset"> 38, 36 </vector2>
+		<resource name="13/occluder"></resource>		<vector2 name="13/navigation_offset"> 38, 36 </vector2>
+		<resource name="13/navigation"></resource>		<vector2 name="13/shape_offset"> 38, 36 </vector2>
 		<array name="13/shapes" len="1" shared="false">
 			<resource  resource_type="Shape2D" path="local://14">  </resource>
 		</array>
 		<vector2 name="13/one_way_collision_direction"> 0, 0 </vector2>
 		<real name="13/one_way_collision_max_depth"> 0 </real>
+		<string name="14/name"> "grassMid" </string>
+		<resource name="14/texture" external="6">  </resource>
+		<vector2 name="14/tex_offset"> 0, 0 </vector2>
+		<resource name="14/material"></resource>		<color name="14/modulate"> 1, 1, 1, 1 </color>
+		<rect2 name="14/region"> 0, 0, 70, 70 </rect2>
+		<vector2 name="14/occluder_offset"> 35, 35 </vector2>
+		<resource name="14/occluder"></resource>		<vector2 name="14/navigation_offset"> 35, 35 </vector2>
+		<resource name="14/navigation"></resource>		<vector2 name="14/shape_offset"> 35, 35 </vector2>
+		<array name="14/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://15">  </resource>
+		</array>
+		<vector2 name="14/one_way_collision_direction"> 0, 0 </vector2>
+		<real name="14/one_way_collision_max_depth"> 0 </real>
+		<string name="15/name"> "grassRight" </string>
+		<resource name="15/texture" external="7">  </resource>
+		<vector2 name="15/tex_offset"> 0, 0 </vector2>
+		<resource name="15/material"></resource>		<color name="15/modulate"> 1, 1, 1, 1 </color>
+		<rect2 name="15/region"> 0, 0, 70, 70 </rect2>
+		<vector2 name="15/occluder_offset"> 35, 35 </vector2>
+		<resource name="15/occluder"></resource>		<vector2 name="15/navigation_offset"> 35, 35 </vector2>
+		<resource name="15/navigation"></resource>		<vector2 name="15/shape_offset"> 35, 35 </vector2>
+		<array name="15/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://16">  </resource>
+		</array>
+		<vector2 name="15/one_way_collision_direction"> 0, 0 </vector2>
+		<real name="15/one_way_collision_max_depth"> 0 </real>
+		<string name="16/name"> "grassCenter" </string>
+		<resource name="16/texture" external="8">  </resource>
+		<vector2 name="16/tex_offset"> 0, 0 </vector2>
+		<resource name="16/material"></resource>		<color name="16/modulate"> 1, 1, 1, 1 </color>
+		<rect2 name="16/region"> 0, 0, 70, 70 </rect2>
+		<vector2 name="16/occluder_offset"> 35, 35 </vector2>
+		<resource name="16/occluder"></resource>		<vector2 name="16/navigation_offset"> 35, 35 </vector2>
+		<resource name="16/navigation"></resource>		<vector2 name="16/shape_offset"> 35, 35 </vector2>
+		<array name="16/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://17">  </resource>
+		</array>
+		<vector2 name="16/one_way_collision_direction"> 0, 0 </vector2>
+		<real name="16/one_way_collision_max_depth"> 0 </real>
+		<string name="17/name"> "grassHillRight" </string>
+		<resource name="17/texture" external="9">  </resource>
+		<vector2 name="17/tex_offset"> 0, 0 </vector2>
+		<resource name="17/material"></resource>		<color name="17/modulate"> 1, 1, 1, 1 </color>
+		<rect2 name="17/region"> 0, 0, 70, 70 </rect2>
+		<vector2 name="17/occluder_offset"> 35, 35 </vector2>
+		<resource name="17/occluder"></resource>		<vector2 name="17/navigation_offset"> 35, 35 </vector2>
+		<resource name="17/navigation"></resource>		<vector2 name="17/shape_offset"> 35, 35 </vector2>
+		<array name="17/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://18">  </resource>
+		</array>
+		<vector2 name="17/one_way_collision_direction"> 0, 0 </vector2>
+		<real name="17/one_way_collision_max_depth"> 0 </real>
 
 	</main_resource>
 </resource_file>

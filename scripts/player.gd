@@ -47,7 +47,12 @@ func dead():
 	#get_node("player").remove_and_skip()
 	#get_parent().get_node("mob/villain").set_animation("walk_left")
 	
+func attack():
+	var dif = bigone.get_global_pos().x-get_parent().get_node("mob").get_global_pos().x
 	
+	player.set_animation("attack")
+	if dif < 25 and dif > -40:
+		get_parent().get_node("mob").health-=attack
 	
 func _process(delta):
 	
@@ -81,7 +86,7 @@ func _process(delta):
 				player.set_flip_h(true)
 			else:
 				player.set_flip_h(false)
-			player.set_animation("attack")
+			attack()
 		else:
 			time =0
 			player.set_animation("idle")

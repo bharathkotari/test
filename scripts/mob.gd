@@ -41,6 +41,7 @@ func random_walk(delta):
 	ran.x=maxspeed*d
 	ran.y=0
 	move(ran)
+	
 	mob.set_animation("walk_left")
 	
 	
@@ -49,11 +50,16 @@ func _fixed_process(delta):
 	velocity.y=delta*gravity
 	var motion= velocity*delta
 	move(motion)
-	random_walk(delta)
+	
+	
 	
 	#print (dif)
-	#print (sight)
-	if (sight.size()>=1):
+	#print (sight.size())
+	if(health <=0):
+		mob.set_animation("die")
+	elif (sight.size()>=3):
+		#mob.set_animation("idle")
+		mob.set_animation("attack")
 		for obj in sight:
 			if (obj.is_in_group("player")):
 				var direction=(player.get_global_pos()-mob.get_global_pos()).normalized()
@@ -61,20 +67,25 @@ func _fixed_process(delta):
 				move(direction*maxspeed)
 				var dif = player.get_global_pos().x-mob.get_global_pos().x
 				if dif < 25 and dif > -40:
+					
 					if dif > 0:
 						mob.set_flip_h(true)
 					else :
 						mob.set_flip_h(false)
-					mob.set_animation("attack")
+					
 					if get_parent().get_node("RigidBody2D").health >=0:
 						get_parent().get_node("RigidBody2D").health-=damage
-						
-					elif get_parent().get_node("RigidBody2D").is_hidden():
-						random_walk(delta)
-					
-						#print ("player spotted")
-	
-	else:
-		random_walk(delta)
+#						#print ("playerspotted")
 		#mob.set_animation("walk_left")
+	else:
+		if left_villain.is_colliding() :
+			d=1
+		#print("left collide")
+		elif right_villain.is_colliding():
+			d=-1
+			#print("right collide")
+		ran.x=maxspeed*d
+		ran.y=0
+		move(ran)
+		mob.set_animation("walk_left")
 #	
